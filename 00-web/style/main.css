@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+header, .container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+#menu {
+  background-color: #34675C;
+  padding: 10px;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 8px;
+  margin-top: 1px;
+  position: fixed;
+  top: 0px;
+}
+
+#menu, a {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.section-about .right{
+  float: left;
+  width: 50%;
+}
+
+.section-about .left {
+  float: right;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.section-steps {
+  display: flex;
+}
+
+.section-steps .right {
+  flex: 1;
+}
+
+.section-steps .left {
+  flex: 1;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #B7B8B6;
+  padding: 20px;
+}
+
+.dog-list {
+  display: flex;
+}
+
+.dog-list .column {
+  flex: 1;
+}
+
+.dog-row {
+  display: flex;
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+.dog-row img {
+  height: 150px;
+  width: 150px;
+}
+
+.dog-row-image {
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border: 1px solid red;
+  flex: 0 0 150px;
+}
+
+.dog-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  flex: 1 0;
+}
+
+.info-container {
+  background-color: #B7B8B6;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.dog-info .info-container .name {
+
+}
+
+.dog-info .info-container .breed {
+  
+}
+
+.dog-info .info-container .age {
+  
+}
+
+.dog-info .info-container .bio {
+  
+}
+
+/*4CB5F5;
+B7B8B6;
+34675C;
+B3C100;*/
