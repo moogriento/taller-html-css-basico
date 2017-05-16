@@ -1,0 +1,19 @@
+intro
+  browsers  10m
+  html      10m
+
+tags
+  headings 10m
+  paragraphs 10m
+  images 15m
+  text-formating 20m
+  links 20m
+  lists 20m
+
+quiz
+  1. Create a list of 3 items (could be anything). Each item should be an image. Each item should redirecto a different page. The last one should redirect to a local page.
+  2. Create a local page (redirected from the last item of the previous one) with the given fórmula:
+    a ^ 2 + b ^ 2 = c ^ 2
+
+    and on the bottom a paragraph with a text 
+
