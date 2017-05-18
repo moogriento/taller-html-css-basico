@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Media</title>
+</head>
+<body>
+
+  <!--
+    <audio>
+    Atributos
+    controls = muestra los controles para reproducir, parar, etc.
+    autoplay = permite reproducir el audio cuando termina de cargar
+    loop = indica que el audio volverá a reproducirse una vez finalizado
+    -->
+
+    <audio>
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mp3">
+    </audio>
+
+  <!-- 
+    <video>
+    Atributos
+    controls = muestra los controles para reproducir, parar, etc.
+    autoplay = permite reproducir el video cuando termina de cargar
+    loop = indica que el video volverá a reproducirse una vez finalizado
+    muted = inicializa el video sin audio
+    poster = se puede indicar una imagen inicial que se muestra mientras carga el video
+    height = indica la altura del video
+    width = indica la altura del video
+    -->
+    <video width="320" height="250" controls muted>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <h2>Bienvenidos a los juegos del hambre</h2>
+    <p>
+      Mira este video introductorio
+    </p>
+
+    <div style="width: 60%;">
+      <div style="display: inline-block; width: 48%; background-color: blueviolet; padding: 10px;">
+        <video width="100%" height="250" controls muted>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div style="display: inline-block; width: 48%; background-color: mediumvioletred; padding: 10px;">
+        <img src="https://i1.wp.com/radiohead.mx/wp-content/uploads/2011/05/modified-bear.gif?resize=402%2C250" alt="Radiohead" height="250" />
+      </div>
+    </div>
+    
+    <h3>Lista de participantes</h3>
+
+    <div>
+      <table style="border: 1px solid; width: 60%;">
+        <tr>
+          <th>Nickname</th>
+          <th>Número de la suerte</th>
+          <th>Fecha de nacimiento</th>
+        </tr>
+        <tr>
+          <td>Elsa Pito</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right; color: red; font-weight: bold;">01/01/1875</td>
+        </tr>
+        <tr>
+          <td>Aceituna</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">22/05/2000</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <h3>Completa tu registro acá</h3>
+    <div style="width: 60%; background-color:lightgray;">
+      <form>
+        <fieldset>
+          <legend style="font-family: sans-serif;">Registro del participante</legend>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Nickname <input type="text" placeholder="Ingresa tu nickname">
+          </div>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Número de la suerta <input type="number" placeholder="Ingresa tu número de la suerte">
+          </div>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Fecha de nacimiento <input type="date" placeholder="Ingresa tu fecha de nacimiento">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend style="font-family: sans-serif;">Convéncenos</legend>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Por qué razón deseas participar
+            <ul style="list-style-type: none;">
+              <li>
+                <input type="checkbox" > No tengo nada que hacer
+              </li>
+              <li>
+                <input type="checkbox" > Me lo recomendó un amigo
+              </li>
+              <li>
+                <input type="checkbox" > Me gusta lo riesgoso
+              </li>
+              <li>
+                <input type="checkbox" > Igual voy a jalar el ciclo :(
+              </li>
+            </ul>
+          </div>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Si algo te pasa, ¿Le dirás a alguien?
+
+            <input type="radio" name="decir"> No
+            <input type="radio" name="decir" checked> Sí
+          </div>
+          <div style="padding: 10px; font-size: 14px; font-family: sans-serif;">
+            Consideraciones especiales:<br/>
+            <textarea rows="5" cols="50"></textarea>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+  </body>
+</html>
