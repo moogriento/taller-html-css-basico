@@ -5,6 +5,49 @@
   <title>Lists</title>
 </head>
 <body>
+  <!--
+    Etiquetas para listas:
+
+    <ul> Unordered list
+      Muestra una lista con viñetas
+    <ol> Ordered list
+      Muestra una lista enumerada
+
+    <li> List Item = Define un elemento de la lista
+
+    Las etiquetas de lista pueden anidarse dentro de otras
+
+    <dl> Detail List
+      Muestra una lista de detalle
+      <dt> Indica el título del elemento de la lista
+        <dd> Indica la descripción del titulo antes indicado.
+             Se muestra con una identación
+
+      Las viñetas o números pueden ser reemplazados por otros valores:
+
+      Para el caso de la etiqueta <ul>, mediante la propiedad de estilo
+      "list-style-type"
+
+      Los posibles valores son:
+      - circle
+      - disc
+      - square
+      - none
+
+      <ul style="list-style-type:circle">
+      
+      Para el caso de la etiqueta <ol>, mediante al atributo "type""
+
+      Los posibles valores son:
+      - 1
+      - A
+      - a
+      - I
+      - i
+
+      <ol type="A">
+    -->
+
   <h3>Unordered List</h3>
 
   <ul>
@@ -25,10 +68,7 @@
   <h3>Tipos de viñeta</h3>
 
   <!--
-    circle
-    disc
-    square
-    none
+    
     -->
   <ul style="list-style-type:circle">
     <li>Elemento 1</li>
@@ -37,13 +77,6 @@
     <li>Elemento 4</li>
   </ul>
 
-  <!--
-    1
-    A
-    a
-    I
-    i
-    -->
   <ol type="A">
     <li>Elemento 1</li>
     <li>Elemento 2</li>
@@ -72,8 +105,6 @@
     <dt>Título 2</dt>
     <dd>Esta es la descripción del otro elemento</dd>
   </dl>
-
-  <!-- Links as menues -->
 
 </body>
 </html>
