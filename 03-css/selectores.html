@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS!</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      /* global */
+      /** {
+        
+      }*/
+
+      /* id */
+      #ejemplo {
+        
+      }
+      /* clase */
+      .boton {
+
+      }
+      /* elemento */
+      p {
+
+      }
+      /* combinar elementos */
+      h2, h3 {
+
+      }
+      /* elementos dentro de otro elemento */
+      div p {
+
+      }
+
+      /* elementos cuyo padre es el elemento especificado: papa > hijo */
+      div > p {
+
+      }
+
+      /* atributo */
+      [type=text] {
+        /*font-family: sans-serif;*/
+        font-size: 20px;
+      }
+
+      /* pseudo clase */
+
+      a:hover {
+
+      }
+
+      /* pseudo elemento */
+      .resaltador::selection {
+        background-color: red;
+      }
+
+      body, html {
+        margin: 0px;
+        height: 100%;
+      }
+
+      .contenedor {
+        width: 1000px;
+        margin: 0 auto;
+        box-shadow: 2px 2px 2px 2px #888888;
+        min-height: 99%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <p class="resaltador">
+        Este es un texto
+      </p>
+
+      <input type="text" placeholder="Ingresa tu nombre" />
+    </div>
+  </body>
+</html>

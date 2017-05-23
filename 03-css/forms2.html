@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+      body {
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+      div {
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+
+      button {
+        height: 32px;
+      }
+
+      .button-container {
+        display: flex;
+      }
+
+      .button-container > button {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+      Parte 2 forms:
+      Listas desplegables: dropdowns
+      -->
+    <form>
+      <div>
+        Escoge una opción:
+        <select>
+          <option value="">--</option>
+          <option value="chocolates">Chocolates</option>
+          <option value="mixtos">Mixtos</option>
+          <option value="cafe">Café</option>
+        </select>
+      </div>
+      <div class="button-container">
+        <input type="button" value="Enviar" />
+        <button type="button">
+          <img src="images/ok.png" width="16" height="16" style="vertical-align: bottom;" >
+          Enviar
+        </button>
+        <button type="reset">Cancelar</button>
+      </div>
+    </form>
+
+  </body>
+</html>
