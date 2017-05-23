@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selectores CSS</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    <div id="envoltura">
+      <nav>
+        <a href="">CSS</a>
+        <a href="">Selectores</a>
+        <a href="">Propiedades</a>
+      </nav>
+      <div class="contenido">
+        <h3>
+          Selectores css
+        </h3>
+        <div>
+          <img src="https://www.w3schools.com/css/selector.gif" />
+        </div>
+        <div>
+          <ul>
+            <li>CSS is un language que describe el estilo de un documento HTML.</li>
+            <li>CSS indica cómo se deben mostrar los elementos de HTML.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="sombra">
+            ¡CSS!
+          </p>
+          <p class="borde-izq-verde">
+            ¡Más CSS!
+          </p>
+          <p class="seleccion">
+            Podemos modificar sólo un archivo y todo el diseño del documento HTML puede verse complementamente diferente.
+          </p>
+
+          <section>
+            <p>
+              Una sección que no se ve afectada por el selector <code> div > p </code>
+            </p>
+          </section>
+        </div>
+        <h3>Algunas propiedades comunes</h3>
+        <div>
+          <table id="tabla-propiedades">
+            <tr>
+              <th>Propiedad</th>
+              <th>Descripción</th>
+              <th>Ejemplo</th>
+            </tr>
+            <tr>
+              <td>color</td>
+              <td>Indica el color de fuente</td>
+              <td>
+                <code>
+                  {
+                    color: red;
+                  }
+                  {
+                    color: #FF0000;
+                  }
+                  {
+                    color: rgb(255, 0, 0);
+                  }
+                </code>
+              </td>
+            </tr>
+            <tr>
+              <td>margin</td>
+              <td>Indica la separación del elemento contra otros elementos. Se especifica en el orden: top right bottom left</td>
+              <td>
+                <code>
+                  {
+                    margin: 10px 5px 8px 3px;
+                  }
+                </code><br/><br/>
+                Donde:
+                <div>
+                  top = 10px<br/>
+                  right = 5px<br/>
+                  bottom = 8px<br/>
+                  left = 3px<br/>
+                </div>
+                También se puede indicar individualmente cada lado
+                <code>
+                  { margin-top }
+                </code>
+              </td>
+            </tr>
+            <tr>
+              <td>padding</td>
+              <td>Indica la separación del borde del elmento contra su contenido</td>
+              <td>
+                <code>
+                  {
+                    padding: 10px;
+                  }
+                </code>
+                Al igual que margin, se puede indicar todos los lados en una sola propiedad o definirlos de forma separada
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Propiedad: border-style</h3>
+        <div>
+          <table class="tabla-border-style">
+            <tr>
+              <th>
+                Valor
+              </th>
+              <th>
+                Resultado
+              </th>
+            </tr>
+            <tr>
+              <td>
+                solid
+              </td>
+              <td>
+                <p style="border-style: solid;">Solid</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                dashed
+              </td>
+              <td>
+                <p style="border-style: dashed;">Dashed</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                double
+              </td>
+              <td>
+                <p style="border-style: double;">Double</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                dotted
+              </td>
+              <td>
+                <p style="border-style: dotted;">Dotted</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                mix
+              </td>
+              <td>
+                <p style="border-style: dashed double dotted solid;">Mix</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
