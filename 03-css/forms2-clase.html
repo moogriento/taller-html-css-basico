@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+  </head>
+  <body>
+    <h3>Botones y lista desplegable</h3>
+    <form>
+      <div>
+        Nombres: <input type="text" placeholder="Ingresa tu nombre" />
+      </div>
+      <div>
+        Escoge tu serie:
+        <!--
+            <select></select>: lista desplegable
+            <option> : define una opción de la lista desplegable
+              atributo
+                - value = definifir el valor al seleccionar una opción
+          -->
+        <select>
+          <option value="">--Selecciona una serie--</option>
+          <option value="Breaking Bad">Breaking Bad</option>
+          <option value="Flash">Flash</option>
+          <option value="Sherlock">Sherlock</option>
+          <option>CTIC</option>
+        </select>
+      </div>
+      <div>
+        <!--
+          BOTONES:
+          1. <input>
+          atributos
+            type = button -> 
+                   submit -> enviar una petición hacia el servidor (X)
+                   reset -> limpiar el formulario
+            value = Texto a mostrar
+          -->
+          <input type="button" value="Enviar" />
+          <input type="reset" value="Limpiar" />
+      </div>
+      <div>
+        <!--
+          2. <button></button>
+          Contiene otras etiquetas
+          imágenes
+          span
+          divs
+          texto
+          -->
+          <button type="button">
+            <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-128.png"
+                width="16" height="16"/>
+            Enviar
+          </button>
+          <button type="reset" style="height: 40px;">
+            <span style="background: red; 
+            border-radius: 15px;
+            padding: 5px; color: white; ">X</span>
+            Limpiar
+          </button>
+      </div>
+    </form>
+  </body>
+</html>
