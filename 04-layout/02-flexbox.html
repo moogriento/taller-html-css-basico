@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .flex-container > * {
+        padding: 15px;
+        flex: 1 100%;
+      }
+
+      .article {
+        text-align: left;
+        flex: 1 0;
+        border: 1px solid;
+      }
+
+      header {
+        background: black;
+        color: white;
+      }
+
+      footer {
+        background: #aaa;
+        color: white;
+      }
+
+      .nav {
+        background: #eee;
+        flex: 0 0 170px;
+      }
+
+      .nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .nav ul a {
+        text-decoration: none;
+      }
+
+      .content-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 300px;
+      }
+
+      .content-box > div {
+        border: 1px solid;
+        padding: 10px;
+        width: 150px;
+      }
+
+      .content-box > div:last-child {
+        flex: 1 1;
+      }
+
+      .content-box-0 {
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: space-between;
+      }
+
+      .content-box-0 > div {
+        border: 1px solid;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <header>
+        <h1>City Gallery</h1>
+      </header>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Posts</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Opción 4</a></li>
+          <li><a href="#">Opción 5</a></li>
+          <li><a href="#">Opción N</a></li>
+        </ul>
+      </nav>
+
+      <article class="article">
+        <h1>Contenido de la página</h1>
+
+        <div class="content-box-0">
+          <div>
+            Elemento flexbox 1
+          </div>
+          <div>
+            Elemento flexbox 2
+          </div>
+          <div>
+            Elemento flexbox 3
+          </div>
+        </div>
+
+        <div class="content-box">
+          <div>
+            Elemento flexbox 1
+          </div>
+          <div>
+            Elemento flexbox 2
+          </div>
+          <div>
+            Elemento flexbox 3
+          </div>
+          <div>
+            Elemento flexbox 4
+          </div>
+          <div>
+            Elemento flexbox 5
+          </div>
+          <div>
+            Elemento flexbox 6
+          </div>
+          <div>
+            Elemento flexbox 7
+          </div>
+          <div>
+            Elemento flexbox 8
+          </div>
+          <div>
+            Elemento flexbox 9
+          </div>
+          <div>
+            Elemento flexbox 10
+          </div>
+          <div>
+            Elemento flexbox 11
+          </div>
+          <div>
+            Elemento flexbox 12
+          </div>
+        </div>
+
+      </article>
+
+      <footer>
+        Este es el pie de página
+      </footer>
+    </div>
+  </body>
+</html>
