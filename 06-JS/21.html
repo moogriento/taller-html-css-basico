@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    var total = 0;
+    var cantidadCartas = 0;
+    var otraCarta;
+
+    while(total <= 21) {
+      otraCarta = prompt('¿Otra Carta?');
+      
+      if (otraCarta === 'no') {
+        console.log('Tu suma es ' + total);
+        break;
+      }
+
+      // Fórmula para obtener un número aleatorio
+      // Math.floor(Math.random() * (max - min + 1)) + min
+      var carta = Math.floor(Math.random() * 14) + 1;
+      total += carta;
+
+      console.log('carta ' + carta);
+      console.log('Tienes ' + total);
+      console.log('---------------------------');
+    }
+
+    if (total > 21) {
+      console.log('perdiste :(');
+    }
+
+    if (total === 21) {
+      console.log('¡GANASTE!');
+    }
+
+    </script>
+  </body>
+</html>
