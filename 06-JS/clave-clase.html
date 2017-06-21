@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script type="text/javascript">
+      var clave;
+      var claveMaestra = '12345seis';
+      var cantidadIntentos = 0;
+
+      while (clave !== claveMaestra) {
+        clave = prompt('Ingresa tu clave');
+        cantidadIntentos++;
+      }
+
+      alert('Bienvenido, la cantidad de intentos fue ' 
+        + cantidadIntentos);
+
+    </script>
+  </body>
+</html>
